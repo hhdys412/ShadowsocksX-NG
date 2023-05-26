@@ -66,6 +66,10 @@ class PreferencesWindowController: NSWindowController
             "chacha20",
             "chacha20-ietf",
             "rc4-md5",
+            "2022-blake3-aes-128-gcm",
+            "2022-blake3-aes-256-gcm",
+            "2022-blake3-chacha20-poly1305",
+            "2022-blake3-chacha8-poly1305",
             ])
         
         profilesTableView.reloadData()
